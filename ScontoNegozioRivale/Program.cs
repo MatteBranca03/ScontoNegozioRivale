@@ -17,7 +17,7 @@ namespace ScontoNegozioRivale
             {
                 sconto = totale / 100 * 10;
                 scontato = totale - sconto;
-                Console.WriteLine($"l'importo da pagare è {scontato}");
+                Console.WriteLine($"la somma da pagare è {scontato}");
             }
             else if (totale > 300)
             {
@@ -26,7 +26,7 @@ namespace ScontoNegozioRivale
                 sconto2 = spesainpiu / 100 * 20;
                 sconto = sconto1 + sconto2;
                 scontato = totale - sconto;
-                Console.WriteLine($"l'importo da pagare è {scontato}");
+                Console.WriteLine($"la somma da pagare è {scontato}");
             }
             Console.ReadLine();
         }
